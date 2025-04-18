@@ -531,3 +531,6 @@
 .footer .btn.btn-link::before{
     content: '\203A';
 }
+.hero-header{
+    background-position: 76% 42%;
+}
