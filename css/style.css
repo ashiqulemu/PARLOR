@@ -1,3 +1,18 @@
+
+
+@font-face {
+    font-family:'Copperplate-Gothic-Light';
+    src: url('../fonts/COPRGTL.TTF');
+}
+
+@font-face {
+    font-family:'Copperplate-Gothic-Bold';
+    src: url('../fonts/COPRGTB.TTF');
+}
+
+
+
+
 /********** Template CSS **********/
 :root {
     --primary: #000000;
@@ -537,4 +552,27 @@
 
 .flex-shrink-0.img-fluid.rounded{
     display: none;
+}
+
+
+
+body{
+    font-family:'Copperplate-Gothic-Light'!important;
+    color: #484444;
+}
+
+.ff-secondary{
+    font-family:'Copperplate-Gothic-Light'!important;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
+    font-family:'Copperplate-Gothic-Bold'!important;
+}
+
+.btn{
+    font-family:'Copperplate-Gothic-Bold'!important;
+}
+
+small, .small {
+    font-size: 1.175em;
 }
