@@ -527,3 +527,7 @@
     border-color: rgba(255, 255, 255, 0.1);
     background: #000;
 }
+
+.footer .btn.btn-link::before{
+    content: '\203A';
+}
