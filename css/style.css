@@ -534,3 +534,7 @@
 .hero-header{
     background-position: 76% 42%;
 }
+
+.flex-shrink-0.img-fluid.rounded{
+    display: none;
+}
