@@ -597,6 +597,14 @@ small,
 
 
 @media(max-width:768px) {
+    .video-adjust {
+        width: 100%;
+        position: unset;
+        height: auto;
+        top: unset !important;
+        bottom:unset !important;
+        transform: scale(1)
+    } 
     .footer .col-lg-3 {
         text-align: center;
     }
@@ -611,6 +619,8 @@ small,
 }
 
 
+
+
 :target {
     padding-top: 90px !important;
 }
@@ -623,13 +633,10 @@ small,
     transform: scale(1.4)
 }
 
-@media(max-width:768px) {
-    .video-adjust {
-        width: 100%;
-        position: unset;
-        height: auto;
-        top: unset !important;
-        bottom:unset !important;
-        transform: scale(1)
-    } 
+@media(min-width:768px) {
+   
+
+    .top-gap{
+        margin-top: 90px;
+    }
 }
