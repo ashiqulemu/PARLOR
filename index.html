@@ -86,7 +86,8 @@
                             <a href="" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Book A
                                 Table</a>
                         </div>
-                        <div class="col-lg-6 text-center text-lg-end overflow-hidden  rounded-circle p-4 d-flex justify-content-center align-items-center">
+                        <div
+                            class="col-lg-6 text-center text-lg-end overflow-hidden  rounded-circle p-4 d-flex justify-content-center align-items-center">
                             <img class="img-fluid w-75" src="img/hero.png" alt="">
                         </div>
                     </div>
@@ -1025,13 +1026,21 @@
         <!-- Reservation Start -->
         <div class="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
             <div class="row g-0">
-                <div class="col-md-6">
-                    <div class="video">
+                <div class="col-md-6 position-relative overflow-hidden">
+                    <video autoplay loop style=" 
+                    position: absolute;                   
+                    height: 100%;                    
+                    top: 0 !important;
+                    bottom: 0 !important;
+                    transform: scale(1.4)">
+                        <source src="./videos/1.mp4" type="video/mp4">
+                    </video>
+                    <!-- <div class="video">
                         <button type="button" class="btn-play" data-bs-toggle="modal"
                             data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
                             <span></span>
                         </button>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="col-md-6 bg-dark d-flex align-items-center">
                     <div class="p-5 wow fadeInUp" data-wow-delay="0.2s">
@@ -1260,19 +1269,24 @@
                             <iconify-icon icon="mdi-light:map-marker" class='text-white' width="20"></iconify-icon>
                             400 Oregon Ave, Schenectady, NY, United States, New York
                         </p>
-                        <p class="mb-2 d-flex gap-2"><iconify-icon icon="lineicons:phone" class='text-white' width="20"></iconify-icon>+1 518-275-8730</p>
-                        <p class="mb-2 d-flex gap-2"><iconify-icon icon="weui:email-outlined" class='text-white' width="20"></iconify-icon>info@parloratmuni.com</p>
+                        <p class="mb-2 d-flex gap-2"><iconify-icon icon="lineicons:phone" class='text-white'
+                                width="20"></iconify-icon>+1 518-275-8730</p>
+                        <p class="mb-2 d-flex gap-2"><iconify-icon icon="weui:email-outlined" class='text-white'
+                                width="20"></iconify-icon>info@parloratmuni.com</p>
                         <div class="d-flex pt-2">
-                            <a class="btn btn-outline-light btn-social"target="_blank" href="">
-                                <iconify-icon icon="basil:twitter-solid" class=""  width="20" height="24"></iconify-icon>
+                            <a class="btn btn-outline-light btn-social" target="_blank" href="">
+                                <iconify-icon icon="basil:twitter-solid" class="" width="20" height="24"></iconify-icon>
                             </a>
-                            <a class="btn btn-outline-light btn-social" target="_blank" href="https://www.facebook.com/profile.php?id=61570570277164">
-                                <iconify-icon icon="basil:facebook-solid" class=""  width="20" height="24"></iconify-icon>
+                            <a class="btn btn-outline-light btn-social" target="_blank"
+                                href="https://www.facebook.com/profile.php?id=61570570277164">
+                                <iconify-icon icon="basil:facebook-solid" class="" width="20"
+                                    height="24"></iconify-icon>
                             </a>
-                            <a class="btn btn-outline-light btn-social"target="_blank" href="">
-                                <iconify-icon icon="basil:instagram-solid" class=""  width="20" height="24"></iconify-icon>
+                            <a class="btn btn-outline-light btn-social" target="_blank" href="">
+                                <iconify-icon icon="basil:instagram-solid" class="" width="20"
+                                    height="24"></iconify-icon>
                             </a>
-                            
+
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
@@ -1318,7 +1332,7 @@
 
         <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top">
-            <iconify-icon icon="fluent:arrow-up-12-filled" width="24" height="24"></iconify-icon>      
+            <iconify-icon icon="fluent:arrow-up-12-filled" width="24" height="24"></iconify-icon>
         </a>
     </div>
 
