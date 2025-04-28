@@ -641,3 +641,9 @@ small,
         margin-top: 90px;
     }
 }
+
+@media(max-width:768px){
+    .navbar-brand img{
+        width: 240px;
+    }
+}
