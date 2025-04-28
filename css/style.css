@@ -97,9 +97,9 @@
 /*** Navbar ***/
 .navbar-dark .navbar-nav .nav-link {
     position: relative;
-    margin-left: 25px;
+    margin-left: 90px;
     padding: 35px 0;
-    font-size: 22px;
+    font-size: 2.3rem;
     color: var(--dark) !important;
     text-transform: uppercase;
     font-weight: 500;
