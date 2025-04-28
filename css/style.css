@@ -537,7 +537,7 @@
 }
 
 .navbar-dark .navbar-brand img {
-    max-height: 95px;
+    max-height: 150px;
 }
 
 
@@ -564,6 +564,7 @@
 body {
     font-family: 'Copperplate-Gothic-Light' !important;
     color: #484444;
+    background: #fff;
 }
 
 .ff-secondary {
