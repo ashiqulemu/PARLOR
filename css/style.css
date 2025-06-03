@@ -553,7 +553,7 @@
 }
 
 .hero-header {
-    background-position: 76% 100%;
+    background-position: 100% 100%;
 }
 
 .flex-shrink-0.img-fluid.rounded {
@@ -701,3 +701,19 @@ small,
 		  }
 
 	}
+
+    .banner{
+        background-image: url(../img/bg-hero.jpg);
+        min-height: 100vh;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    @media(max-width:1024px){
+        .banner{
+            background-repeat: no-repeat;
+            min-height: 550px;
+            background-size: cover;
+            background-position: 50% 50%;
+        }
+    }
