@@ -97,8 +97,9 @@
 /*** Navbar ***/
 .navbar-dark .navbar-nav .nav-link {
     position: relative; 
-    padding: 35px;
-    font-size: 2.3rem;
+    padding: 24px;
+    font-size: 20px;
+    font-weight: bold;
     color: var(--dark) !important;
     text-transform: uppercase;
     font-weight: 500;
@@ -663,3 +664,40 @@ small,
         font-size: 1.6rem;
     }
 }
+
+	.row-theme {
+		  display: flex;
+		  column-gap: 32px;
+		  flex-wrap: wrap; 
+		  text-align: left !important;
+	}
+
+	.items-right {
+		flex: 1;
+	}
+
+	.items-left{
+		flex: 1;
+	}
+
+	.titleBar {
+		background: black;
+		color: #fff;
+		font-size: 1.5rem;
+		margin: 22px 0;
+		padding: 5px 11px;
+	}
+
+	@media(max-width:768px){
+
+	   .row-theme{
+		  display: flex; 
+		  flex-wrap: wrap;
+		  flex-direction: column; 
+		 }
+
+		  .row-theme, label, small {
+			text-align: left;
+		  }
+
+	}
