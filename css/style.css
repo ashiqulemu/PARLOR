@@ -169,7 +169,7 @@
     background: linear-gradient(rgba(15, 23, 43, .9), rgb(15 23 43 / 0%)), url('../img/bg-hero.jpg');
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .hero-header img {
@@ -553,7 +553,7 @@
 }
 
 .hero-header {
-    background-position: 76% 42%;
+    background-position: 76% 100%;
 }
 
 .flex-shrink-0.img-fluid.rounded {
