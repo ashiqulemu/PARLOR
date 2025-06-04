@@ -625,7 +625,7 @@ small,
 
 
 :target {
-    padding-top: 110px !important;
+    /* padding-top: 110px !important; */
 }
 
 .video-adjust {
@@ -739,4 +739,8 @@ small,
         background-size: cover;
         background-position: 50% 50%;
     }
+}
+
+.rounded-15{
+    border-radius: 15px;
 }

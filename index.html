@@ -18,7 +18,7 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body class="bg-light">
+<body class="bg-light" id="at_top">
     <div class="container-fluid bg-white p-0">
         <!-- Spinner Start -->
         <div id="spinner"
@@ -50,10 +50,10 @@
                         </li>
                     </ul>
                     <ul style="flex:1;" class="navbar-nav text-center mx-auto py-0 d-none d-lg-block">
-                        
-                         <a href="index.html" class="navbar-brand p-0 me-0 ">
-                                <img src="./img/logo.png" class="" height="auto">
-                            </a>
+
+                        <a href="index.html" class="navbar-brand p-0 me-0 ">
+                            <img src="./img/logo.png" class="" height="auto">
+                        </a>
                         <!-- <li class="nav-item">  </li> -->
                     </ul>
                     <ul class="navbar-nav ms-auto py-0 ">
@@ -62,7 +62,7 @@
                             <a href="#" class=" nav-link me-5 d-none d-lg-block"> </a>
                         </li> -->
                         <li class="nav-item">
-                            <a href="#" class=" nav-link me-0 ">Events</a>
+                            <a href="#events" class=" nav-link me-0 ">Events</a>
                         </li>
                         <li class="nav-item">
                             <a href="#payment_frm" class=" nav-link me-0 ">Gift certificate</a>
@@ -106,9 +106,9 @@
         <section class="banner">
             <div class="container-fluid">
                 <div class="row px-0">
-                <div class="col-lg-6"> </div>
-                <div class="col-lg-6"> </div>
-            </div>
+                    <div class="col-lg-6"> </div>
+                    <div class="col-lg-6"> </div>
+                </div>
             </div>
         </section>
 
@@ -1269,6 +1269,48 @@
         </div>
         <!-- Testimonial End -->
 
+
+        <!-- Events Start -->
+        <div class="container-xxl py-5 " id="events">
+            <div class="container ">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Events</h5>
+                    <h1 class="mb-5">upcoming events</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-4 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="text-center">
+                            <img src="./img/Sean_Donnelly.jpg" class="img-fluid rounded-15 mb-3" alt="">
+                            <h6 class="mb-0">THE COMEDY WORKS @ THE PARLOR</h6>
+                            <h3 class="mb-0">Sean Donnelly</h3>
+                            <h6>August 16th</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="text-center">
+                            <img src="./img/Jon-Fisch.jpg" class="img-fluid rounded-15 mb-3" alt="">
+                            <h6 class="mb-0">THE COMEDY WORKS @ THE PARLOR</h6>
+                            <h3 class="mb-0">JON FISCH</h3>
+                            <h6>August 16th</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="text-center">
+                            <img src="./img/Jim_Florentine.jpg" class="img-fluid rounded-15 mb-3" alt="">
+                            <h6 class="mb-0">THE COMEDY WORKS @ THE PARLOR</h6>
+                            <h3 class="mb-0">JIM FLORENTINE</h3>
+                            <h6>August 16th</h6>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- Events End -->
+
+        <!-- Gift Certificate Start -->
+
         <form name="frm" id="payment_frm" action="https://phpstack-1291867-5001977.cloudwaysapps.com/submitorder.php"
             method="post" style="padding-top:20px;text-align:left !important;">
             <div class="container-fluid bg-light  py-5" id="about">
@@ -1280,8 +1322,7 @@
                     <div class="row g-5 align-items-center">
                         <div class="col-lg-6">
                             <div class="row g-3">
-                                <img src="./img/gift-certificate.jpg" class="img-fluid"
-                                    style="max-width: 100%;" alt="">
+                                <img src="./img/gift-certificate.jpg" class="img-fluid" style="max-width: 100%;" alt="">
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -1892,8 +1933,8 @@
                 </div>
             </div>
         </form>
-
-  <!-- Contact Start -->
+        <!-- Gift Certificate end -->
+        <!-- Contact Start -->
         <div class="container-xxl pt-5" id="contact">
             <div class="container ">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
@@ -1918,7 +1959,10 @@
                         </div>
                     </div> -->
                     <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2927.7712081772033!2d-73.90001!3d42.793186399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89de7264d42f5839%3A0xe185eb645ad1331d!2sSchenectady%20Municipal%20Golf%20Course!5e0!3m2!1sen!2sbd!4v1744993405694!5m2!1sen!2sbd" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2927.7712081772033!2d-73.90001!3d42.793186399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89de7264d42f5839%3A0xe185eb645ad1331d!2sSchenectady%20Municipal%20Golf%20Course!5e0!3m2!1sen!2sbd!4v1744993405694!5m2!1sen!2sbd"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     <div class="col-md-6">
                         <div class="wow fadeInUp" data-wow-delay="0.2s">
@@ -1932,7 +1976,8 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-floating">
-                                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                            <input type="email" class="form-control" id="email"
+                                                placeholder="Your Email">
                                             <label for="email">Your Email</label>
                                         </div>
                                     </div>
@@ -1944,7 +1989,8 @@
                                     </div>
                                     <div class="col-12">
                                         <div class="form-floating">
-                                            <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
+                                            <textarea class="form-control" placeholder="Leave a message here"
+                                                id="message" style="height: 150px"></textarea>
                                             <label for="message">Message</label>
                                         </div>
                                     </div>
@@ -2018,16 +2064,18 @@
 
 
         <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top">
+        <a href="#at_top" class="btn btn-lg btn-primary btn-lg-square back-to-top">
             <iconify-icon icon="fluent:arrow-up-12-filled" width="24" height="24"></iconify-icon>
         </a>
+
+
     </div>
 
     <!-- JavaScript Libraries -->
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="lib/wow/wow.min.js"></script>
-    <!-- <script src="lib/easing/easing.min.js"></script>   -->
+    <script src="lib/easing/easing.min.js"></script>  
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
