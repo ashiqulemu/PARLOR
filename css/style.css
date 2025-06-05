@@ -748,3 +748,12 @@ small,
 .border-black-3{
     border: 3px solid black;
 }
+
+.tab-pane h5 span:nth-child(2){
+    display: none;
+}
+
+.form-floating .form-control:focus{
+    border: 1px solid black;
+    box-shadow: none;
+}
