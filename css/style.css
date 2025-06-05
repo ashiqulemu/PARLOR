@@ -749,7 +749,7 @@ small,
     display: none;
 }
 
-.form-floating .form-control:focus{
+ .form-control:focus{
     border: 1px solid black;
     box-shadow: none;
 }
