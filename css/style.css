@@ -757,3 +757,9 @@ small,
     border: 1px solid black;
     box-shadow: none;
 }
+
+@media(max-width:768px){
+    .text-modify{
+        font-size: 13px;
+    }
+}
