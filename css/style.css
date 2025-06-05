@@ -98,7 +98,7 @@
 .navbar-dark .navbar-nav .nav-link {
     position: relative;
     padding: 12px 25px;
-    font-size: 20px;
+    font-size: 19px;
     font-weight: bold;
     color: var(--dark) !important;
     text-transform: uppercase;
@@ -598,14 +598,10 @@ small,
 
 
 
-@media(max-width:768px) {
+@media(max-width:960px) {
     .video-adjust {
         width: 100%;
-        position: unset;
-        height: auto;
-        top: unset !important;
-        bottom: unset !important;
-        transform: scale(1)
+        position: relative!important; 
     }
 
     .footer .col-lg-3 {
