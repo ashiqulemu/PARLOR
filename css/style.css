@@ -111,6 +111,8 @@
 
 }
 
+
+
 .wine-list-block {
     width: 60%;
     margin: 0 auto;
@@ -138,8 +140,16 @@
         width: 90%;
     }
 
-    .wine-list-block .items.right { 
-        text-align: left!important;
+    .wine-list-block .items.right {
+        text-align: left !important;
+    }
+
+    #drinks-menu .section-title::before {
+        display: none;
+    }
+
+    #drinks-menu .section-title::after {
+        display: none;
     }
 }
 
