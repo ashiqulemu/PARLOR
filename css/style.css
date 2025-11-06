@@ -96,6 +96,12 @@
 
 /*** Navbar ***/
 
+
+ 
+#drinks .sub-title{
+    margin-top: 20px;
+}
+
 .navbar-dark .navbar-nav .nav-link {
     position: relative;
     padding: 12px 25px;
